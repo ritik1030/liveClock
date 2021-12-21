@@ -41,7 +41,7 @@
         myInterval = setInterval(() => {
             a = new Date();
             date = a.toLocaleDateString();
-            time = a.toLocaleTimeString();
+            time = a.toLocaleTimeString('en-US');
             document.getElementById('date').innerHTML = date;
             document.getElementById('time').innerHTML = time;
         }, 1000);
@@ -53,7 +53,7 @@
             myInterval = setInterval(() => {
                 a = new Date();
                 date = a.toLocaleDateString();
-                time = a.toLocaleTimeString();
+                time = a.toLocaleTimeString('en-US');
                 document.getElementById('date').innerHTML = date;
                 document.getElementById('time').innerHTML = time;
             }, 1000);
